@@ -29,7 +29,7 @@ module Jammit
 
     # CSS asset-embedding regexes for URL rewriting.
     EMBED_DETECTOR  = /url\(['"]?([^\s)]+\.[a-z]+)(\?\d+)?['"]?\)/
-    EMBEDDABLE      = /[\A\/]embed\//
+    EMBEDDABLE      = /[\A\/]images\//
     EMBED_REPLACER  = /url\(__EMBED__(.+?)(\?\d+)?\)/
 
     # MHTML file constants.
